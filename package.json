@@ -1,0 +1,40 @@
+{
+  "name": "passport-oauth-mail-ru",
+  "version": "1.0.0",
+  "description": "Mail ru authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "mail",
+    "mailru",
+    "mail-ru",
+    "mail.ru",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "FTB_lag",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DoctorFTB/passport-oauth-mail-ru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DoctorFTB/passport-oauth-mail-ru/issues"
+  },
+  "license": "MIT",
+  "main": "./lib/passport-mail",
+  "typings": "./typings/index.d.ts",
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "dependencies": {
+    "passport-oauth": "1.x.x"
+  },
+  "devDependencies": {
+    "@types/passport": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
